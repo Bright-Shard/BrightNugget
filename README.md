@@ -26,4 +26,4 @@ and is automatically generated when an invalid (or lack of) configuration is det
 the `brightnugget.conf` file over.)
 
 # Documentation
-Coming soon™.
+See the [Read the Docs]() page.
