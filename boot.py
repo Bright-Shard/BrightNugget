@@ -16,7 +16,7 @@ remount('/', False, disable_concurrent_write_protection=True)
 
 def reset():
     config["Progress Bars"] = True
-    config["BeEF Hook URL"] = "https://brightkali.me:3000/hook.js"
+    config["BeEF Hook URL"] = "https://example.com"
     with open("brightnugget.conf", "w") as configFile:
         dump(config, configFile)
         configFile.close()
