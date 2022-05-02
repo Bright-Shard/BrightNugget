@@ -26,4 +26,4 @@ and is automatically generated when an invalid (or lack of) configuration is det
 the `brightnugget.conf` file over.)
 
 # Documentation
-See the [Read the Docs]() page.
+See the [Read the Docs](https://brightnugget.readthedocs.io/en/latest/) page.
